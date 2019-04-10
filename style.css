@@ -21,7 +21,7 @@ theme.
 ** - LEFT BAR CSS
      -HAMBURGER SWITCH
        -HAMBURGER MENU
-** - HOME CSS 
+** - HOME CSS
 ** - SERVICE CSS
 ** - SKILL CSS
 ** - CONTER CSS
@@ -33,8 +33,8 @@ theme.
 ** - FOOTER CSS
 ** - PARTICLES CSS
 ** - VIDEO BG CSS
-** - HOME-2 CSS 
-** - HOME-3 CSS 
+** - HOME-2 CSS
+** - HOME-3 CSS
 ** - PRELOADER WAVE CSS
 ** - ScroolUp Js CSS
 
@@ -153,6 +153,7 @@ LEFT BAR CSS
 
 .logo {
     text-align: center;
+    margin-left: 8px;
 }
 
 .logo h2 {
@@ -344,7 +345,7 @@ HAMBURGER MENU
 
 
 /*********
- HOME CSS 
+ HOME CSS
 *********/
 
 .slider-area {
@@ -441,7 +442,7 @@ HAMBURGER MENU
     font-size: 14px;
 }
 
-.cv-btn {
+.cv-btn, .cv-btn:visited {
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
@@ -461,6 +462,8 @@ HAMBURGER MENU
     background-color: #22C8FC;
     color: #fff;
 }
+
+
 
 .cv-btn i {
     padding-right: 5px;
@@ -709,7 +712,7 @@ SERVICE CSS
 
 
 /***********
- CONTER CSS 
+ CONTER CSS
 ***********/
 
 .counter-section {
@@ -820,6 +823,10 @@ SERVICE CSS
 /************
 PORTFOLIO CSS
 ************/
+
+.mfp-img {
+    margin: 42px;
+}
 
 #work {
     overflow: hidden;
@@ -1372,7 +1379,7 @@ footer {
 
 
 /*************
-PARTICLES CSS 
+PARTICLES CSS
 *************/
 
 .particles-js {
@@ -1385,7 +1392,7 @@ PARTICLES CSS
 
 
 /*************
-VIDEO BG CSS 
+VIDEO BG CSS
 *************/
 
 .video-bg-area {
@@ -1403,7 +1410,7 @@ VIDEO BG CSS
 
 
 /**********
-HOME-2 CSS 
+HOME-2 CSS
 ***********/
 
 .home2.slider-area {
@@ -1429,7 +1436,7 @@ HOME-2 CSS
 
 
 /**********
- HOME-3 CSS 
+ HOME-3 CSS
 ***********/
 
 .home3.slider-area .slider {
@@ -1485,7 +1492,7 @@ HOME-2 CSS
 }
 
 /*******************
-PRELOADER WAVE CSS 
+PRELOADER WAVE CSS
 ********************/
 
 #preloader-wrapper {
@@ -1582,6 +1589,3 @@ ScroolUp Js CSS
     width: 46px;
     z-index: 999;
 }
-
-
-

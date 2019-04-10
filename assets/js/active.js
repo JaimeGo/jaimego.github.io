@@ -114,7 +114,7 @@
 
     // 8. ScrollUp
     $.scrollUp({
-        scrollText: '<i class="fa fa-long-arrow-up"></i>',
+        scrollText: '<i class="fas fa-arrow-up"></i>',
         easingType: 'linear',
         scrollSpeed: 900,
         animation: 'fade'

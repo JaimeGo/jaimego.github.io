@@ -118,14 +118,14 @@
                 "weight": 1.2
             }]
         }],
-        center: new google.maps.LatLng(1.352083, 103.819836)
+        center: new google.maps.LatLng(-33.45, -70.6667)
       };
       var map = new google.maps.Map(document.getElementById('map'),
           mapOptions);
       var marker = new google.maps.Marker({
         position: map.getCenter(),
-        icon: 'assets/img/icon/feature-icon-4.png',
+        icon: 'assets/img/icon/mapicon.png',
         map: map
       });
     }
-    google.maps.event.addDomListener(window, 'load', initialize);   
+    google.maps.event.addDomListener(window, 'load', initialize);
